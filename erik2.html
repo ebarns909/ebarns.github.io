@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Erik Barns</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/ebarns.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+ 
+<div class="container" id="outercontent">
+	<div id="banner">
+	</div>
+	<div class="masthead">
+	<nav class="navbar nav-default">
+		<div class="container-fluid hidden-xs hidden-sm">
+			<div id="navbar">
+			<ul class="nav navbar-nav">
+				<li><a id="about-link" onclick="show_content('#about')">ABOUT ME</a></li>
+				<li><a id="portfolio-link" onclick="show_content('#portfolio')">PORTFOLIO</a></li>
+				<li><a id="resume-link" onclick="show_content('#resume')">RESUME</a></li>
+			<!--	<li><a id="twenty-link" onclick="show_content('#twentytwenty')">20/20</a></li>-->
+			</ul>
+			</div>
+		</div>
+		<div class="dropdown hidden-lg hidden-md">
+		  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+				  <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+		  </button>
+		  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+				<li><a id="about-link" onclick="show_content('#about')">ABOUT ME</a></li>
+				<li><a id="portfolio-link" onclick="show_content('#portfolio')">PORTFOLIO</a></li>
+				<li><a id="resume-link" onclick="show_content('#resume')">RESUME</a></li>
+		  </ul>
+		</div>
+	</nav>
+	</div>
+	<div id="contentbox">
+		<div class="row box" id="about">
+			<!-- <h1>ABOUT ME</h1> -->
+			<article>
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+				  <!-- Wrapper for slides -->
+				  <div class="carousel-inner" role="listbox">
+					<div class="item active">
+					<div class="img-wrapper" id="open_image">
+						<img class="img-responsive img-rounded" id="intro_erik" src="mimages/erik_intro2.jpg">
+					</div>
+					</div>
+					<div class="item" id="intro">
+					
+							<div class="">
+							<h2>INTRODUCTION</h2>
+							<p id="intro_text"> My name is Erik Barns and this is my personal website that I coded myself using Twitter's Bootstrap Framework. On this site you will find a little information about myself, my resume, as well as some work I have contributed to or developed myself over the past year or two at DePaul University. Enjoy!</p>
+							</div>
+					</div>
+
+					<div class="item">
+						<div class="">
+						<h2>EDUCATION</h2>
+						<p> I am currently a junior at DePaul University studying Computer Science. Upon taking computer science in high school I realized I had a passion for programming, and wanted to pursue it further. I currently have been focusing on web development in my free time but am still exploring the realm of possibilities in computer science. My independent web development practice has been centred around front end development while touching in some backend development. I have worked on a few website projects through Wordpress, contributing mostly to the front end, as well as designing pages and page compositions. I'm also currently interested in web security, specifically cyber attack and defense practices. Most recently I have joined a group of DePaul students who are researching and planning to develop a drone defense system.</p>	
+						</div>
+					</div>
+
+					<div class="item" id="background">
+						<div class="">
+						<h2>BACKGROUND</h2>
+						<p>I've lived in the Chicago area for 10 years now. I've also lived in Belgium and China for multiple years. I love living in Chicago and could see myself beginning my professional career in the city but I am also ready to continue to explore the world. I love to get outside and be active, in my past time I skateboard everywhere, exploring different areas or neighbourhoods in Chicago. I've also really enjoyed getting to know a side of the local music scene in Chicago, it's a friendly community that is affordable and fun for college students. 
+						</p>
+						</div>
+					</div>
+				  </div>
+
+					<div class="controlsBlock">
+					<div class="controls">
+					<a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+					 <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+					<!--<a class="left carousel-control" href="#slideshow" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+					 <a class="right carousel-control" href="#slideshow" data-slide="next"><i class="fa fa-chevron-right"></i></a>-->
+					<div class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+					<li data-target="#myCarousel" data-slide-to="3"></li>
+					</div>
+					</div>
+					</div>
+			</div>
+			</article>
+		</div>
+		<div class="row box" id="portfolio">
+			<div class="col-md-12">
+				<article>
+				<h1 id="port_header">PORTFOLIO</h1>
+				<p><strong>Here is a collection of work that I have contributed to or created myself from 2014-Present</strong></p>
+				<div class="row" id="port">
+					
+					<div class="col-md-4 col-sm-6 col-xs-12 img-wrapper" id="port-cols">
+					<div class="porter"
+					<a href="http://dcocapitalmanagement.com">
+						<!-- <img src="mimages/dco.png" class="img-responsive img-rounded"> -->
+					  <div id="poopsaw" class="dco">
+						
+					  </div>
+					</a>
+					</div>
+					</div>	
+					<div class="col-md-4 col-sm-6 col-xs-12 img-wrapper" id="port-cols">
+					  <a href="http://caldev.dnsalias.com/">
+						<!-- <img src="mimages/calmark.png" class=" img-responsive img-rounded"> -->
+						<div id="poopsaw" class="cal">
+						
+						</div>
+					  </a>
+					</div>
+					<div class="col-md-4 col-sm-6 col-xs-12 img-wrapper" id="port-cols">
+					  <a href="http://ectweb.cs.depaul.edu/EBARNS/Ryan's%20Thoughts/index.html">
+						<!-- <img src="mimages/ryan.png" class=" img-responsive img-rounded"> -->
+						<div id="poopsaw" class="ry">
+						
+						</div>
+					  </a>
+						<div class="caption hidden-lg hidden-md">
+							<p>HTML CSS JQuery Animation Graphics</p>
+						</div>
+					</div>												
+				</div>
+				<div class="row">
+					
+					<div class="col-md-4 col-sm-6 col-xs-12 col-md-offset-0 img-wrapper" id="port-cols">
+					  <a href="http://www.childrenscardiomyopathy.org/">
+					  <div id="poopsaw" class="this_site">
+						<!-- <img src="mimages/this.png" class="img-rounded img-responsive"> -->
+					  </div>
+					  </a>	
+					</div>
+					<div class="col-md-4 col-sm-6 col-xs-12 img-wrapper" id="port-cols">
+					  <a href="https://github.com/ebarns/Redditviewer/blob/master/redditviewer.py">
+						<!-- <img src="mimages/redditviewer.png" class="img-responsive img-rounded"> -->
+						<div id="poopsaw" class="reddit img-responsive">
+						
+						</div>
+					  </a>	
+					</div>					
+				</div>	
+				</article>
+			</div>			
+		</div>
+		
+		<div class="row box" id="resume">
+			<h1>RESUME</h1>		
+			<article>
+				<h2 id="name-resume"> Erik Barns</h2>
+				<p id="address">2682 N. Orchard st. | erik.barns@yahoo.com | (847) 840-0759</p>	
+				
+				<h3>EDUCATION</h3>
+				<p>DePaul University (Class of 2017)</p>
+				<p>Bachelor of Science in Computer Science</p>
+				<p>Minor in Data Mining & Analysis</p>
+				<p>GPA: 3.8/4.0, Dean's List 2013-Present</p>
+				
+				<h4>RELEVANT COURSEWORK</h4>
+				<p>Computer Systems I & II, Web Automation with Python, Data Structures in Java, Intro to Web Development, Discrete Mathematics, Intro to Animation, Video Editing, Multiculturalism in U.S, Ethics in Technology, Ethics in Games & Cinema</p>
+				
+								<h3>COMPUTER SKILLS</h3>
+				<ul class="skills">
+					<li>Proficient in HTML, CSS and Javascript (including Jquery). Familiar with Bootstrap framework. Minor exposure to Php with MySQL.</li>
+					<li>Proficient in Python programming. Comfortable with data structures and web based libraries Beautiful Soup, and Mechanize. Some exposure to Django framework.</li>
+					<li>Familiar with Java programming and comfortable with data structures.</li>
+					<li>Multiple years of experiences with Adobe Creative Suite software: Photoshop, Illustrator, Indesign, Dreamweaver, After Effects (Animation) and Premiere.</li>
+					<li>Comfortable working with Linux terminal.</li>
+					<li>Exposure to some C, and C++ programming including breaking C code down into IA-32 Assembly using GDB.</li>
+					<li>Web development with the Wordpress framework.</li>
+				</ul>
+				
+				<h3>WORK EXPERIENCE</h3>
+				<p class="h4sub"><strong>NuZoo Media - Chicago, IL</strong> <i class="res-time">April 2015 - Present</i></p>
+				<p><i>Web Intern</i></p>
+				<ul class="experience">
+					<li>Responsible for the development and design of multiple web based projects for a diverse range of clients.</li>
+					<li>Used the Word Press framework for multiple sites implementing different templates.</li>
+					<li>Designed graphics for web page compositions.</li>
+				</ul>
+				<p class="h4sub"><strong>DePaul University - Chicago, IL</strong>		<i class="res-time">January 2015 - Present</i></p>
+				<p><i>Classroom Technology Support</i></p>
+				<ul class="experience">
+				<li>Responsible for maintaining classroom technologies such as projectors, computers and sound system equipment. Weekly checks of classrooms to ensure everything is functional and tidy for classes.</li>
+				<li>Responsible for answering classroom technology issues on demand.</li>
+				</ul>
+				
+				<p class="h4sub"><strong>DCO Capital Management - Chicago, IL</strong>		<i class="res-time">October 2015 - Present</i></p>
+				<p><i>Web & Graphics</i></p>
+				<ul class="experience">
+					<li>Worked on a need basis relationship with boutique investment management firm.</li>
+					<li>Updated quarterly letter document including editing in Adobe InDesign as well as updating excel graphs.</li>
+					<li>Redesigned the company website on the Squarespace platform: <a href="www.dcocapitalmanagement.com">DCO Captial Management</a></li>
+					<li>Designed new business cards for the CEO and Chief Investment Officer.</li>
+				</ul>
+				
+				<p class="h4sub"><strong>South Barrington Tennis Club - Barrington, IL</strong>			<i class="res-time">June 2012 - September 2014</i></p>
+				<p><i>Tennis Hut Employee</i></p>
+				<ul class="employ">
+					<li>Customer Service: I aided in teaching tennis to children and adults, as well as responding to various types of requests from members.</li>
+					<li>General outdoor tennis court maintenance, including sweeping, watering and maintaining a pristine court condition.</li>
+					<li>Responsible for training new employees in court cleaning, customer service and general maintenance. Tennis Hut is a summer position only.</li>
+				</ul>
+				
+				<p class="h4sub"><strong>UPS - Palatine, IL</strong>				<i class="res-time">December 1 - December 24 2013 & 2014</i></p>
+				<p><i>Driver Helper</i></p>
+				<ul class="employ">
+					<li>Aided multiple driver in the delivery of packages during the busy holiday season.</li>
+					<li>Made up to 350 deliveries a day, with an above average rate of 45-50 deliveries an hour. Aided in keeping a safe and organized truck to maintain efficiency</li>
+				</ul>
+				
+				<p class="h4sub"><strong>Lost In The Sound - Online</strong>				<i class="res-time">January 2011 - January 2014</i></p>
+				<p><i>Writer & Editor</i></p>
+				<ul class="employ">
+					<li>Added a wide variety of posts to a daily content music blog.</li>
+					<li>In 2012 I began editing the daily content on the website.</li>
+				</ul>
+				
+				<h3>Extra Activities</h3>
+				<ul id="activities">
+					<li>Higherground Apparel</li>
+					<li>DePaul Computer Science Society</li>
+					<li>DePaul Club Tennis Travel Team</li>
+					<li>DePaul Mens Club Rugby</li>
+				</ul>
+			</article>
+		</div>
+	
+		<div class="row" id="twentytwenty">
+			<h1>20/20 FASHION ORGANIZATION</h1>
+			<article>
+				<p> do a short paragraph about role in 2020 then maybe a quick mission statement and stuff</p> 
+			</article>
+		</div>
+	</div>
+</div>
+		<div class="container">
+			<!-- <p>Click to enter</p> -->
+			<div class="image">
+				<img class="img img-responsive img-circle" onclick="opening(this)" onmouseover="wel_hover(this);" onmouseout="wel_out(this);" id="wel-circ" 
+					src="mimages/welcome-circle3.gif">
+			</div>
+		</div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/eb.js"></script>
+  </body>
+</html>

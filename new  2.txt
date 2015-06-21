@@ -1,0 +1,2 @@
+for about me, palm trees on the side, they will shrink when click out
+. with blue coloring. colors morph onclick to another page. 
