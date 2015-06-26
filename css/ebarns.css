@@ -1,19 +1,21 @@
-@media (max-width: 480px) {
+
+
+@media (max-width: 768px) {
 	article{
-		font-size:1em;
+		font-size:1.1em;
 	}
 	h2{
-		font-size:1.2em;
+		font-size:1.3em;
 	}
 	h4{
-	font-size:1.1em;
+	font-size:1.2em;
 	}
 	h1{
-		font-size:1.3em;
+		font-size:1.4em;
 		text-align:center;
 	}
 	h3{
-		font-size:1.2em;
+		font-size:1.3em;
 	}
 	.image{
 		position:absolute;
@@ -30,7 +32,7 @@
 	}
 }
 
-@media (min-width: 992px){
+@media (min-width: 768px){
 	article{
 		font-size:1.3em;
 	}
@@ -266,6 +268,7 @@ body.loaded-resume {
 	padding-left: 3em;
 	padding-right: 3em;
 }
+
 /* ABOUT ME CSS  AND TEXT BASED CONTENT*/
 article{
 	/* font-size:1.4em; */
@@ -374,7 +377,7 @@ h1{
 .carousel-inner{
 	width:90%;
 	margin: 0 auto;
-	min-height: 23em;
+	/* min-height: 23em; */
  	/* overflow-y:auto; */
 	height:100%;
 }
@@ -385,7 +388,7 @@ h1{
 
 .carousel-inner  > .item {
 	text-align:center;
-	min-height: 20em;
+	min-height: 15em;
 	/* height:100%; */
 }
 
@@ -455,6 +458,7 @@ h1{
   	position: absolute;
   	z-index: 5;
   	display: inline-block;
+	font-size:5em;
 }
 
 .carousel-control .glyphicon-chevron-left {

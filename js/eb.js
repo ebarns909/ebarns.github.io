@@ -9,6 +9,28 @@ $("#mobilnav").hide();
     $("body").addClass("loaded");
 });
 */
+//CAROUSEL INTERVAL AND HEIGHT ANIMATION 
+//NOT MY CODE AGAIN 
+//SOURCE: https://github.com/twbs/bootstrap/issues/7812
+    $('.carousel').carousel({
+        interval: false
+    }).on('slide.bs.carousel', function (e) {
+        var nextH = $(e.relatedTarget).height();
+        console.log(nextH)
+        console.log( $(this).find('.active.item').parent() )
+        $(this).find('.active.item').parent().animate({
+            height: nextH
+        }, 500);
+    });
+	
+$(document).ready(function() {  
+   $("#myCarousel").swiperight(function() {  
+      $("#myCarousel").carousel('prev');  
+    });  
+   $("#myCarousel").swipeleft(function() {  
+      $("#myCarousel").carousel('next');  
+   });  
+});  
 
 function show_content(box){
 
@@ -52,7 +74,3 @@ function opening(element){
 	
 }
 
-//carousel interval
-$('.carousel').carousel({
-  interval: 1000 * 15
-});
