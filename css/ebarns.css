@@ -37,7 +37,7 @@
 		font-size:1.3em;
 	}
 	h2{
-		font-size: 1.4em;
+		font-size: 2em;
 	}
 	h4{
 	font-size:1.3em;
@@ -83,17 +83,40 @@
 
 /* BACKGROUND TRANSITION EFFECTS */
 body{
-   background-color:pink;
+	color:black;
+   background:pink;
+      	background-image: linear-gradient(35deg,rgba(255,255,255,0.0),rgba(204,0,102,0.55));
+		background-image:  -webkit-linear-gradient(35deg,rgba(255,255,255,0.0),rgba(204,0,102,0.55));
+		background-image:  -o-linear-gradient(35deg,rgba(255,255,255,0.0),rgba(204,0,102,0.55));
+		background-image:  -moz-linear-gradient(35deg,rgba(255,255,255,0.0),rgba(204,0,102,0.55));
 	/* background-image: url(mimages/welcomebg.gif); */
-   background-repeat: no-repeat;
-   background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+		background-attachment: fixed;
+		background-position: center center;
+		background-size: cover;
+		background-repeat: repeat;
+ 		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover; 
 		overflow-y: scroll;
+	-webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 	}
 body.loaded-portfolio {
+   /* background-color: linear-gradient(rgba(255,136,85,0.8),rgba(200,0,50,0.45)); */
+		background-attachment: fixed;
+		background-position: center center;
+		background-size: cover;
+		background-repeat: repeat;
+ 		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover; 
    background-color: #FF8855;
+   		background-image: linear-gradient(rgba(255,255,255,0.0),rgba(150,0,200,0.55));
+		background-image:  -webkit-linear-gradient(280deg,rgba(255,255,255,0.0),rgba(150,0,200,0.55));
+		background-image:  -o-linear-gradient(rgba(255,255,255,0.0),rgba(150,0,200,0.55));
+		background-image:  -moz-linear-gradient(rgba(255,255,255,0.0),rgba(150,0,200,0.55));
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
   -o-transition: all 1s ease-in-out;
@@ -110,14 +133,41 @@ body.loaded-welcome {
 }
 
 body.loaded-about {
-   background-color: #00FFFF;
+   background: #00FFFF;
+      /* background: linear-gradient(rgba(00,255,255,0.6),rgba(150,0,200,0.45)); */
+		background-image: linear-gradient(rgba(255,255,255,0.0),rgba(100,0,200,0.55) 80%);
+		background-image:  -webkit-linear-gradient(315deg,rgba(255,255,255,0.0),rgba(100,0,200,0.55) 80%);
+		background-image:  -o-linear-gradient(rgba(255,255,255,0.0),rgba(100,0,200,0.55) 80%);
+		background-image:  -moz-linear-gradient(rgba(255,255,255,0.0),rgba(100,0,200,0.55) 80%);
+   /* background: linear-gradient(rgba(255,255,255,0.0),rgba(150,0,200,0.45)); */
+		background-attachment: fixed;
+		background-position: center center;
+		background-size: cover;
+		background-repeat: repeat;
+ 		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover; 
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
   -o-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
 body.loaded-resume {
-   background-color: #00FFAA;
+   color:black;
+   background: #00FFAA;
+      /* background: linear-gradient(rgba(00,255,255,0.6),rgba(150,0,200,0.45)); */
+		background-image: linear-gradient(rgba(255,255,255,0.0),rgba(0,0,200,0.3));
+		background-image:  -webkit-linear-gradient(rgba(255,255,255,0.0),rgba(0,0,200,0.3));
+		background-image:  -o-linear-gradient(rgba(255,255,255,0.0),rgba(0,0,200,0.3));
+		background-image:  -moz-linear-gradient(rgba(255,255,255,0.0),rgba(0,0,200,0.3));
+		
+		background-attachment: fixed;
+		background-position: center center;
+		background-size: cover;
+		background-repeat: repeat;
+ 		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover; 
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
   -o-transition: all 1s ease-in-out;
@@ -228,6 +278,10 @@ body.loaded-resume {
   transition: all 0.5s ease-in-out;
 } */
 /* IMAGE HOVER EFFECTS AND OPENING IMAGE */
+#dpu{
+	margin-left: auto;
+    margin-right: auto;
+}
 .img-wrapper {
     display: inline-block;
 	padding-top:1em;
@@ -267,8 +321,11 @@ body.loaded-resume {
 	padding-bottom: 5em;
 	padding-left: 3em;
 	padding-right: 3em;
-}
 
+}
+.row{
+ 	
+}
 /* ABOUT ME CSS  AND TEXT BASED CONTENT*/
 article{
 	/* font-size:1.4em; */
