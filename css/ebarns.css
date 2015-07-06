@@ -104,15 +104,14 @@ body{
   transition: all 1s ease-in-out;
 	}
 body.loaded-portfolio {
-   /* background-color: linear-gradient(rgba(255,136,85,0.8),rgba(200,0,50,0.45)); */
-		background-attachment: fixed;
+   background: #FF8855;
+   		background-attachment: fixed;
 		background-position: center center;
 		background-size: cover;
 		background-repeat: repeat;
  		  -webkit-background-size: cover;
 		  -moz-background-size: cover;
 		  -o-background-size: cover; 
-   background-color: #FF8855;
    		background-image: linear-gradient(rgba(255,255,255,0.0),rgba(150,0,200,0.55));
 		background-image:  -webkit-linear-gradient(280deg,rgba(255,255,255,0.0),rgba(150,0,200,0.55));
 		background-image:  -o-linear-gradient(rgba(255,255,255,0.0),rgba(150,0,200,0.55));
@@ -121,6 +120,23 @@ body.loaded-portfolio {
   -moz-transition: all 1s ease-in-out;
   -o-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
+   /* background-color: linear-gradient(rgba(255,136,85,0.8),rgba(200,0,50,0.45)); */
+/* 		background-attachment: fixed;
+		background-position: center center;
+		background-size: cover;
+		background-repeat: repeat;
+		  -moz-background-size: cover;
+		  -o-background-size: cover; 
+		overflow-y: scroll;
+   background: #FF8855;
+   		background-image: linear-gradient(rgba(255,255,255,0.0),rgba(150,0,200,0.55));
+		background-image:  -webkit-linear-gradient(280deg,rgba(255,255,255,0.0),rgba(200,0,255,0.35));
+		background-image:  -o-linear-gradient(rgba(255,255,255,0.0),rgba(150,0,200,0.55));
+		background-image:  -moz-linear-gradient(rgba(255,255,255,0.0),rgba(150,0,200,0.55));
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out; */
 }
 
 body.loaded-welcome {
@@ -135,10 +151,10 @@ body.loaded-welcome {
 body.loaded-about {
    background: #00FFFF;
       /* background: linear-gradient(rgba(00,255,255,0.6),rgba(150,0,200,0.45)); */
-		background-image: linear-gradient(rgba(255,255,255,0.0),rgba(100,0,200,0.55) 80%);
-		background-image:  -webkit-linear-gradient(315deg,rgba(255,255,255,0.0),rgba(100,0,200,0.55) 80%);
-		background-image:  -o-linear-gradient(rgba(255,255,255,0.0),rgba(100,0,200,0.55) 80%);
-		background-image:  -moz-linear-gradient(rgba(255,255,255,0.0),rgba(100,0,200,0.55) 80%);
+		background-image: linear-gradient(rgba(255,255,255,0.0),rgba(100,0,200,0.55));
+		background-image:  -webkit-linear-gradient(315deg,rgba(255,255,255,0.0),rgba(100,0,200,0.55));
+		background-image:  -o-linear-gradient(rgba(255,255,255,0.0),rgba(100,0,200,0.55));
+		background-image:  -moz-linear-gradient(rgba(255,255,255,0.0),rgba(100,0,200,0.55));
    /* background: linear-gradient(rgba(255,255,255,0.0),rgba(150,0,200,0.45)); */
 		background-attachment: fixed;
 		background-position: center center;

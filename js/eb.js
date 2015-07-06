@@ -1,4 +1,6 @@
 
+
+	
 $("#resume").hide();
 $("#portfolio").hide();
 $("#twentytwenty").hide();
@@ -23,14 +25,6 @@ $("#mobilnav").hide();
         }, 500);
     });
 	
-$(document).ready(function() {  
-   $("#myCarousel").swiperight(function() {  
-      $("#myCarousel").carousel('prev');  
-    });  
-   $("#myCarousel").swipeleft(function() {  
-      $("#myCarousel").carousel('next');  
-   });  
-});  
 
 function show_content(box){
 

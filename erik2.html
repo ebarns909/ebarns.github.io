@@ -16,7 +16,6 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-	<script src=”jquery.mobile.custom.min.js”></script>  
   </head>
  
   <body>
@@ -80,7 +79,7 @@
 
 					<div class="item">
 						<div class="poop">
-						<h2>EDUCATION</h2>
+						<img class="img-responsive" id="dpu" align="middle"src="mimages/dpu.png">
 						<p> I am currently a junior at DePaul University studying Computer Science. Upon taking computer science in high school I realized I had a passion for programming, and wanted to pursue it further. I currently have been focusing on web development in my free time but am still exploring the realm of possibilities in computer science. My independent web development practice has been centred around front end development while touching in some backend development. I have worked on a few website projects through Wordpress, contributing mostly to the front end, as well as designing pages and page compositions. I'm also currently interested in web security, specifically cyber attack and defense practices. Most recently I have joined a group of DePaul students who are researching and planning to develop a drone defense system.</p>	
 						</div>
 					</div>
@@ -147,7 +146,7 @@
 							<p>HTML CSS JQuery Animation Graphics</p>
 						</div>
 					</div>
-					 <div class="clearfix visible-xs-block"></div>
+					
 				</div>
 				<div class="row">
 					
@@ -184,7 +183,7 @@
 				<p>GPA: 3.8/4.0, Dean's List 2013-Present</p>
 				
 				<h4>RELEVANT COURSEWORK</h4>
-				<p>Computer Systems I & II, Web Automation with Python, Data Structures in Java, Intro to Web Development, Discrete Mathematics, Intro to Animation, Video Editing, Multiculturalism in U.S, Ethics in Technology, Ethics in Games & Cinema</p>
+				<p>Computer Systems I & II, Web Automation with Python, Data Structures in Java, Intro to Web Development, Technical Writing, Discrete Mathematics, Intro to Animation, Video Editing, Multiculturalism in U.S, Ethics in Technology, Ethics in Games & Cinema, China in the 21st Century, Introduction to Digital Electronics.</p>
 				
 								<h3>COMPUTER SKILLS</h3>
 				<ul class="skills">
@@ -268,8 +267,18 @@
 					src="mimages/welcome-circle3.gif">
 			</div>
 		</div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+  </body>   
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/eb.js"></script>
+	<script src="js/jquery.mobile.custom.min.js"></script>
+	<!-- <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> -->
+
 	<script>
+	$('.ui-loader').hide();
 	$(document).ready(function() {  
    $("#myCarousel").swiperight(function() {  
       $("#myCarousel").carousel('prev');  
@@ -277,11 +286,6 @@
    $("#myCarousel").swipeleft(function() {  
       $("#myCarousel").carousel('next');  
    });  
-	});  
+	});
 	</script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-	<script src="js/eb.js"></script>
-  </body>
 </html>
